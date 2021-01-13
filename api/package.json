@@ -1,0 +1,10 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --watch etapa2blog.json --port 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
