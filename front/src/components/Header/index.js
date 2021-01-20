@@ -3,11 +3,13 @@ import React from 'react';
 import { ContainerHeader } from './styles';
 
 
-function Header(){
+function Header(props){
     return(
         <ContainerHeader>
             <header>
                 <h1>Blog</h1>
+
+                {props.children}
             </header>
         </ContainerHeader>
     );
