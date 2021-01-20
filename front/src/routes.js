@@ -3,7 +3,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Posts from './pages/posts';
-import PostDetails from './pages/posts-details';
+import PostDetails from './pages/post-details';
 import User from './pages/user';
 
 const Routes = () => (
